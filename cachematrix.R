@@ -1,6 +1,6 @@
 ## Caching the inverse of a matrix
-##  In order to  cache the inverse of a matrix, a special matrix object is required 
-##which has the capability to store its inverse as well
+## In order to  cache the inverse of a matrix, a special matrix object is required 
+## which has the capability to store its inverse as well
 ## This function receives a matrix data as input
 ## and has 4 functions
 ## set and get to set and get the matrix data and setInverse and GetInverse are used to get and set the inverse
@@ -28,7 +28,6 @@ list(set=set,get=get,getInverse=getInverse,setInverse=setInverse)   ## List of f
 
 
 }
-
 
 ## This function compute and caches the inverse of the matrix 
 ## Function first checks whether inverse is already calculated if yes then it returns from the cache
